@@ -1,0 +1,230 @@
+{
+  "brandName": "Wyze",
+  "steps": [
+    {
+      "id": "cameras",
+      "number": 1,
+      "title": "Choose your cameras",
+      "icon": "camera",
+      "nextLabel": "Choose your plan",
+      "products": [
+        {
+          "id": "wyze-cam-v4",
+          "stepId": "cameras",
+          "reviewCategory": "cameras",
+          "name": "Wyze Cam v4",
+          "description": "The clearest Wyze Cam ever made.",
+          "image": "/images/image 110.svg",
+          "price": 27.98,
+          "compareAtPrice": 35.98,
+          "badge": "Save 22%",
+          "learnMoreUrl": "#wyze-cam-v4",
+          "variants": [
+            { "id": "white", "label": "White", "swatchColor": "#F4F4F2", "image": "/images/image 13.svg" },
+            { "id": "grey", "label": "Grey", "swatchColor": "#9CA3AF", "image": "/images/image 13.svg" },
+            { "id": "black", "label": "Black", "swatchColor": "#2B2B2B", "image": "/images/indoor-camera-black.svg" }
+          ],
+          "maxQuantity": 10
+        },
+        {
+          "id": "wyze-cam-pan-v3",
+          "stepId": "cameras",
+          "reviewCategory": "cameras",
+          "name": "Wyze Cam Pan v3",
+          "description": "See the whole room with 360° pan and 180° tilt.",
+          "image": "/images/image 110.svg",
+          "price": 23.99,
+          "compareAtPrice": 28.99,
+          "badge": "Save 17%",
+          "learnMoreUrl": "#wyze-cam-pan-v3",
+          "variants": [
+            { "id": "white", "label": "White", "swatchColor": "#F4F4F2", "image": "/images/image 110.svg" },
+            { "id": "grey", "label": "Grey", "swatchColor": "#9CA3AF", "image": "/images/image 110.svg" },
+            { "id": "black", "label": "Black", "swatchColor": "#2B2B2B", "image": "/images/image 110.svg" }
+          ],
+          "maxQuantity": 10
+        },
+        {
+          "id": "wyze-doorbell-v2",
+          "stepId": "cameras",
+          "reviewCategory": "cameras",
+          "name": "Wyze Doorbell v2",
+          "description": "1080p HD video doorbell with two-way audio.",
+          "image": "/images/image 16.svg",
+          "price": 44.98,
+          "compareAtPrice": 59.98,
+          "badge": "Save 25%",
+          "learnMoreUrl": "#wyze-doorbell-v2",
+          "maxQuantity": 4
+        },
+        {
+          "id": "wyze-floodlight-v2",
+          "stepId": "cameras",
+          "reviewCategory": "cameras",
+          "name": "Wyze Floodlight v2",
+          "description": "270° PIR motion detection with 2800-lumen LED 2800-lumen oled and be best.",
+          "image": "/images/image 13.svg",
+          "price": 84.99,
+          "compareAtPrice": 99.99,
+          "badge": "Save 15%",
+          "learnMoreUrl": "#wyze-floodlight-v2",
+          "maxQuantity": 4
+        },
+        {
+          "id": "wyze-battery-cam-pro",
+          "stepId": "cameras",
+          "reviewCategory": "cameras",
+          "name": "Wyze Battery Cam Pro",
+          "description": "100% battery-powered with 2K HDR video.",
+          "image": "/images/outdoor-camera-black.svg",
+          "price": 89.98,
+          "compareAtPrice": 102.98,
+          "badge": "Save 13%",
+          "learnMoreUrl": "#wyze-battery-cam-pro",
+          "variants": [
+            { "id": "white", "label": "White", "swatchColor": "#F4F4F2", "image": "/images/image 13.svg" },
+            { "id": "black", "label": "Black", "swatchColor": "#2B2B2B", "image": "/images/outdoor-camera-black.svg" }
+          ],
+          "maxQuantity": 6
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "number": 2,
+      "title": "Choose your plan",
+      "icon": "plan",
+      "nextLabel": "Choose your sensors",
+      "products": [
+        {
+          "id": "cam-unlimited",
+          "stepId": "plan",
+          "reviewCategory": "plan",
+          "name": "Cam Unlimited",
+          "description": "14-day cloud storage for all your Wyze Cams.",
+          "image": "/images/Wyze_Cam_V4_01.0001.png (1).svg",
+          "price": 9.99,
+          "compareAtPrice": 12.99,
+          "badge": "Best value",
+          "learnMoreUrl": "#cam-unlimited",
+          "maxQuantity": 1
+        },
+        {
+          "id": "cam-plus",
+          "stepId": "plan",
+          "reviewCategory": "plan",
+          "name": "Cam Plus",
+          "description": "Person detection and cloud storage for one camera.",
+          "image": "/images/Wyze_Cam_V4_01.0001.png (1).svg",
+          "price": 2.99,
+          "compareAtPrice": 3.99,
+          "learnMoreUrl": "#cam-plus",
+          "maxQuantity": 1
+        }
+      ]
+    },
+    {
+      "id": "sensors",
+      "number": 3,
+      "title": "Choose your sensors",
+      "icon": "sensor",
+      "nextLabel": "Add extra protection",
+      "products": [
+        {
+          "id": "wyze-sense-motion",
+          "stepId": "sensors",
+          "reviewCategory": "sensors",
+          "name": "Wyze Sense Motion Sensor",
+          "description": "Motion detection for any room in your home.",
+          "image": "/images/Wyze_Cam_V4_01.0001.png (1).svg",
+          "price": 29.99,
+          "learnMoreUrl": "#wyze-sense-motion",
+          "maxQuantity": 20
+        },
+        {
+          "id": "wyze-sense-hub",
+          "stepId": "sensors",
+          "reviewCategory": "sensors",
+          "name": "Wyze Sense Hub (Required)",
+          "description": "Central hub required for Wyze Sense sensors.",
+          "image": "/images/Wyze_Cam_V4_01.0001.png (1).svg",
+          "price": 0,
+          "compareAtPrice": 29.92,
+          "learnMoreUrl": "#wyze-sense-hub",
+          "maxQuantity": 1
+        },
+        {
+          "id": "wyze-sense-entry",
+          "stepId": "sensors",
+          "reviewCategory": "sensors",
+          "name": "Wyze Sense Entry Sensor",
+          "description": "Alerts when doors and windows open or close.",
+          "image": "/images/Wyze Sense Motion Sensor.svg",
+          "price": 14.99,
+          "compareAtPrice": 19.99,
+          "learnMoreUrl": "#wyze-sense-entry",
+          "maxQuantity": 20
+        }
+      ]
+    },
+    {
+      "id": "protection",
+      "number": 4,
+      "title": "Add extra protection",
+      "icon": "protection",
+      "nextLabel": "Review your system",
+      "products": [
+        {
+          "id": "wyze-microsd-256",
+          "stepId": "protection",
+          "reviewCategory": "accessories",
+          "name": "Wyze MicroSD Card (256GB)",
+          "description": "Local storage for continuous recording.",
+          "image": "/images/Wyze Sense Hub.svg",
+          "price": 20.98,
+          "compareAtPrice": 24.98,
+          "badge": "Save 16%",
+          "learnMoreUrl": "#wyze-microsd-256",
+          "maxQuantity": 10
+        },
+        {
+          "id": "extended-warranty",
+          "stepId": "protection",
+          "reviewCategory": "accessories",
+          "name": "Extended Hardware Warranty",
+          "description": "Adds 2 years of coverage for accidental damage.",
+          "image": "/images/Wyze Sense Hub.svg",
+          "price": 49.99,
+          "compareAtPrice": 79.99,
+          "badge": "Save 38%",
+          "learnMoreUrl": "#extended-warranty",
+          "maxQuantity": 1
+        },
+        {
+          "id": "yard-sign",
+          "stepId": "protection",
+          "reviewCategory": "accessories",
+          "name": "Yard Sign & Window Decals",
+          "description": "Visible deterrent kit with weather-resistant signage.",
+          "image": "/images/Wyze Sense Hub.svg",
+          "price": 0,
+          "compareAtPrice": 9.99,
+          "learnMoreUrl": "#yard-sign",
+          "maxQuantity": 1
+        }
+      ]
+    }
+  ],
+  "review": {
+    "shippingLabel": "Fast Shipping",
+    "shippingPrice": 0,
+    "shippingCompareAtPrice": 5.99,
+    "shippingNote": "FREE",
+    "financingLabel": "as low as",
+    "financingNote": "$19.19/mo",
+    "financingMonthly": 19.19,
+    "satisfactionText": "100% Wyze satisfaction guarantee",
+    "returnsTitle": "30-day hassle-free returns",
+    "returnsDescription": "If you're not completely satisfied, return your order within 30 days for a full refund."
+  }
+}
