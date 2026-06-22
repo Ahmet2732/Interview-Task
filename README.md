@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sentinel Bundle Builder
 
 A React prototype of a multi-step security system bundle builder with a live review panel. Built as a frontend take-home exercise.
@@ -72,3 +73,6 @@ To reset, clear site data for the app origin or run in the browser console:
 ```js
 localStorage.removeItem('sentinel-bundle-config')
 ```
+=======
+# Interview-Tarsk
+>>>>>>> f3c1de7fdc73153c2fc3f2ec8d24dd6b8dfef5f6
