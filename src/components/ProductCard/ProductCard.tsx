@@ -20,10 +20,9 @@ export function ProductCard({ product, featured = false }: ProductCardProps) {
   const isPlan = product.reviewCategory === 'plan';
 
   return (
-
-    <div
-      className={`relative h-43.25 w-[361.5px] flex overflow-hidden rounded-xl border bg-white transition-shadow hover:shadow-md sm:flex-row sm:items-stretch ${
-        selected ? 'border-2 border-wyze-purple' : 'border-0'
+  <div
+      className={`relative flex h-43.25 w-[361.5px] overflow-hidden rounded-xl border bg-white transition-shadow hover:shadow-md sm:flex-row sm:items-stretch ${
+        selected ? 'border-2 border-wyze-purple' : 'border-wyze-border'
       } ${featured ? 'sm:col-span-2' : ''}`}
     >
       {product.badge ? (
@@ -32,11 +31,11 @@ export function ProductCard({ product, featured = false }: ProductCardProps) {
         </span>
       ) : null}
 
-      <div className="flex shrink-0 items-center justify-center bg-slate-50 p-4 sm:border-r sm:border-wyze-border ">
-        <img src={displayImage} alt="" className="h-20 w-20 object-contain" />
+      <div className="flex shrink-0 items-center justify-center bg-slate-50 p-3 sm:border-r sm:border-wyze-border ">
+        <img src={displayImage} alt="" className="h-20 w-20 object-contain  " />
       </div>
 
-      <div className="flex min-w-0 flex-1 flex-col gap-2.5 p-2 sm:gap-3">
+      <div className="flex min-w-0 flex-1 flex-col gap-2 p-2 sm:gap-3">
         <div>
           <h3 className="text-sm font-bold leading-snug text-wyze-text lg:text-[15px]">{product.name}</h3>
           <p className="mt-0.5 text-xs leading-relaxed text-wyze-muted">{product.description}  <a
@@ -48,8 +47,7 @@ export function ProductCard({ product, featured = false }: ProductCardProps) {
           </a></p>
         </div>
 
-    
-
+     
         {product.variants ? (
           <VariantSelector
             variants={product.variants}
@@ -59,7 +57,7 @@ export function ProductCard({ product, featured = false }: ProductCardProps) {
           />
         ) : null}
 
-        <div className="mt-auto flex items-end justify-between gap-3 ">
+        <div className="mt-auto flex items-end justify-between gap-3 pt-1">
           <QuantityStepper
             value={quantity}
             onChange={(next) => setQuantity(product.id, activeVariantId, next)}

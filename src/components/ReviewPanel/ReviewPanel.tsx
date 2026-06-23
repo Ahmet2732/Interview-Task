@@ -7,7 +7,7 @@ import {
   PriceDisplay,
   QuantityStepper,
   ShieldPlusIcon,
-
+  
 } from '../shared';
 
 const CATEGORY_ORDER: ReviewCategory[] = ['cameras', 'sensors', 'accessories', 'plan'];
@@ -98,8 +98,8 @@ export function ReviewPanel() {
           ))}
 
           <div className="flex items-center gap-3 border-t border-wyze-border/60 pt-4">
- 
-            <img src='/images/Wyze Sense Keypad.svg' alt='' className=" shrink-0 text-wyze-green"/>
+           
+          <img src='/images/Wyze Sense Keypad.svg' alt='' className=''/>
             <span className="flex-1 text-sm font-semibold text-wyze-text">{catalog.review.shippingLabel}</span>
             <PriceDisplay
               size="sm"
@@ -110,11 +110,11 @@ export function ReviewPanel() {
         </div>
 
         <div className="border-t border-wyze-border/60 px-5 py-5 lg:px-6">
-          <div className="flex flex-col  sm:flex-row sm:items-start sm:justify-between">
-            <GuaranteeBadge />
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+            <GuaranteeBadge text={catalog.review.satisfactionText} />
 
             <div className="flex-1 sm:text-right">
-            
+           
 
               {catalog.review.financingNote ? (
                 <span className="mb-3 inline-flex rounded-md bg-wyze-purple px-3 py-1  font-bold text-white">
@@ -124,7 +124,7 @@ export function ReviewPanel() {
 
               <div className="flex items-end justify-end gap-2">
                 {pricing.displayCompareTotal > pricing.displayTotal ? (
-                  <span className="pb-0.5 font-bold text-wyze-muted line-through">
+                  <span className="pb-0.5 text-sm text-wyze-muted line-through">
                     {formatCurrency(pricing.displayCompareTotal)}
                   </span>
                 ) : null}

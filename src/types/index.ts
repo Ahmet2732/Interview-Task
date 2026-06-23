@@ -8,7 +8,6 @@ export interface Variant {
 }
 
 export interface Product {
-  badgeType: string;
   id: string;
   stepId: string;
   reviewCategory: ReviewCategory;

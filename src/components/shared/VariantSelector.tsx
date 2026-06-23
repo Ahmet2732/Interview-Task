@@ -14,7 +14,7 @@ export function VariantSelector({
   productName,
 }: VariantSelectorProps) {
   return (
-    <div className="flex  gap-2" role="radiogroup" aria-label={`${productName} color`}>
+    <div className="flex gap-1" role="radiogroup" aria-label={`${productName} color`}>
       {variants.map((variant) => {
         const isActive = variant.id === activeVariantId;
         return (
